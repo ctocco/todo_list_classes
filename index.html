@@ -13,9 +13,9 @@
     <title>Claudio Tocco - Default</title>
   </head>
 
-  <body class="bg-light outline-primary">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-0 mb-5">
-      <a class="navbar-brand" href="#">Navbar</a>
+  <body class="outline-unf">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info mt-0 mb-5">
+      <a class="navbar-brand" href="#">To Do</a>
       <button
         class="navbar-toggler collapsed"
         type="button"
@@ -35,15 +35,13 @@
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
-          <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
           <li class="nav-item"><a class="nav-link" href="#">About</a></li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input
             class="form-control mr-sm-2"
             type="text"
-            placeholder="Search"
+            placeholder="Search your list items"
           />
           <button class="btn btn-secondary my-2 my-sm-0" type="submit">
             Search
@@ -52,23 +50,28 @@
       </div>
     </nav>
 
-    <div class="container bg-light rounded shadow">
-      <div class="container bg-light">
-        <h1 class="text-center">The Get Things Done List</h1>
-        <div class="form-group">
-          <label class="col-form-label col-form-label-lg" for="inputLarge"
-            >Enter Items</label
-          >
+    <div class="container rounded shadow containerColor">
+      <div class="container">
+        <h1 class="text-center text-primary pt-3">To Do List</h1>
+        <div class="form-group mt-4">
           <input
             class="form-control form-control-lg"
             type="text"
-            placeholder=".form-control-lg"
+            placeholder="Type your items here."
             id="inputLarge"
           />
         </div>
         <div class="container">
-          <h1>Items</h1>
-          <div class="row"></div>
+          <h1 class="text-info">Items</h1>
+          <div class="d-flex flex-column bd-highlight mb-3">
+            <ul class="list-group list-group-flush mb-5">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Morbi leo risus</li>
+              <li class="list-group-item">Porta ac consectetur ac</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
